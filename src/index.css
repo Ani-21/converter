@@ -1,0 +1,66 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  background: linear-gradient(to bottom, #5d326c, #350048);
+  border-radius: 20px;
+  padding: 15px 45px;
+  color: white;
+  margin: 10px 0;
+}
+button:hover {
+  letter-spacing: 3px;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 26px;
+  margin-bottom: 20px;
+}
+
+.news-feed {
+  /* background-color: rgba(76, 30, 49, 0.4); */
+  background-color: rgb(76, 30, 49);
+  backdrop-filter: blur(35px);
+}
+
+.currency-converter {
+  background-color: rgba(47, 47, 80, 0.4);
+  backdrop-filter: blur(35px);
+  align-items: center;
+}
+
+.market-data {
+  background-color: #4a2f7f;
+}
+
+.exchange-rate {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(35px);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.25);
+}
